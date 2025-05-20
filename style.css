@@ -12,13 +12,18 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: greenyellow;
+    background: url('https://img.freepik.com/free-vector/flat-autumn-background_23-2149047817.jpg?semt=ais_hybrid&w=740') no-repeat;
+    background-position: center;
+    background-size: cover; 
 }
 
 .wrapper {
     width: 420px;
-    background: rgb(134, 29, 29);
-    color: white;
+    background: transparent;
+    color: #6a4232;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 20px;
     padding: 30px 40px;   
 }
@@ -41,15 +46,15 @@ body {
     background: transparent;
     border: none;
     outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(138, 130, 130, 0.2);
     border-radius: 40px;
     font-size: 14px;
-    color: white;
+    color: hsl(17, 36%, 31%);
     padding: 20px 45px 20px 20px;
 }
 
 .input-box input::placeholder {
-    color: white;
+    color: #dd944d;
 }
 
 .input-box  i {
@@ -73,7 +78,7 @@ body {
 }
 
 .remember-forget a {
-    color: white;
+    color: #dd944d;
     text-decoration: none;
 }
 
@@ -101,7 +106,7 @@ body {
     margin-top: 20px 0 15px}
 
 .register-link p a {
-    color: #fff;
+    color: #dd944d;
     text-decoration:  none;
     font-weight: 600;
 }
